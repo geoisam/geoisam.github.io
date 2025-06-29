@@ -21,7 +21,7 @@ function isBackToTop() {
         , backToTopBtn = document.querySelector("#back-to-top")
         , currentHeight = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop
     isMobile ? deviceHeight = 567 : deviceHeight = 321
-    if (currentHeight > deviceHeight) {
+    if (backToTopBtn && (currentHeight > deviceHeight)) {
         backToTopBtn.style.display = "block"
     } else {
         backToTopBtn.style.display = "none"
