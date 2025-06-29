@@ -246,7 +246,7 @@ header {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: rgba(33, 33, 33, .9);
-    background-image: url(../images/background.jpg);
+    background-image: url("https://i0.hdslb.com/bfs/openplatform/1486ea426ca3521e63911d33df51156d32edc310.jpg");
     filter: blur(0.1rem);
 }
 
@@ -295,7 +295,7 @@ footer {
 }
 
 .about-box .img-box {
-    background-image: url(https://q1.qlogo.cn/g?b=qq&nk=2858727468&s=0);
+    background-image: url("https://q1.qlogo.cn/g?b=qq&nk=2858727468&s=0");
     height: 14rem;
     width: 14rem;
     margin: 0.5rem auto;
