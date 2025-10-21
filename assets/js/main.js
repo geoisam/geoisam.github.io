@@ -37,11 +37,11 @@ window.addEventListener("load", () => {
     })
 })
 
+/*
 function updateCoords(e) {
     pointerX = (e.clientX || e.touches[0].clientX) - canvasEl.getBoundingClientRect().left,
         pointerY = e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top
 }
-
 function setParticuleDirection(e) {
     var t = anime.random(0, 360) * Math.PI / 180
         , a = anime.random(50, 180)
@@ -51,7 +51,6 @@ function setParticuleDirection(e) {
         y: e.y + n * Math.sin(t)
     }
 }
-
 function createParticule(e, t) {
     var a = {};
     return a.x = e,
@@ -68,7 +67,6 @@ function createParticule(e, t) {
         ,
         a
 }
-
 function createCircle(e, t) {
     var a = {};
     return a.x = e,
@@ -89,12 +87,10 @@ function createCircle(e, t) {
         ,
         a
 }
-
 function renderParticule(e) {
     for (var t = 0; t < e.animatables.length; t++)
         e.animatables[t].target.draw()
 }
-
 function animateParticules(e, t) {
     for (var a = createCircle(e, t), n = [], i = 0; i < numberOfParticules; i++)
         n.push(createParticule(e, t));
@@ -125,7 +121,6 @@ function animateParticules(e, t) {
         offset: 0
     })
 }
-
 function debounce(fn, delay) {
     var timer
     return function () {
@@ -137,7 +132,6 @@ function debounce(fn, delay) {
         }, delay)
     }
 }
-
 var canvasEl = document.querySelector(".fireworks");
 if (canvasEl) {
     var ctx = canvasEl.getContext("2d")
@@ -167,3 +161,4 @@ if (canvasEl) {
         setCanvasSize(),
         window.addEventListener("resize", setCanvasSize, !1)
 }
+*/
