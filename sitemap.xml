@@ -8,38 +8,8 @@
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://geoisam.github.io/sponsor/</loc>
-  <lastmod>2032-01-29T13:14:04+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://geoisam.github.io/links/</loc>
-  <lastmod>2032-01-29T13:14:06+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://geoisam.github.io/about/</loc>
-  <lastmod>2032-01-29T13:14:08+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
   <loc>https://geoisam.github.io/index.html</loc>
   <lastmod>2032-01-29T13:14:10+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://geoisam.github.io/sponsor/index.html</loc>
-  <lastmod>2032-01-29T13:14:14+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://geoisam.github.io/links/index.html</loc>
-  <lastmod>2032-01-29T13:14:16+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://geoisam.github.io/about/index.html</loc>
-  <lastmod>2032-01-29T13:14:18+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
@@ -55,6 +25,11 @@
 <url>
   <loc>https://www.cnblogs.com/geoisam/</loc>
   <lastmod>2032-01-29T13:14:24+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://home.cnblogs.com/u/geoisam/</loc>
+  <lastmod>2032-01-29T13:14:26+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 
