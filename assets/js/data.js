@@ -116,6 +116,13 @@ const skills = [
 
 const sponsor = [
     {
+        "time": 1773926923,
+        "name": "zbk",
+        "message": null,
+        "payment": "WeCaht",
+        "amount": 0.01
+    },
+    {
         "time": 1773135773,
         "name": "千与千寻",
         "message": "360缺少i18n目录导致无右键",
