@@ -119,91 +119,91 @@ const sponsor = [
         "time": 1773926923,
         "name": "zbk",
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 0.01
     },
     {
         "time": 1773135773,
         "name": "千与千寻",
         "message": "360缺少i18n目录导致无右键",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 1.00
     },
     {
         "time": 1770702289,
         "name": "吕建国",
         "message": "感谢大佬",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 5.00
     },
     {
         "time": 1770532856,
         "name": "名字",
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 0.10
     },
     {
         "time": 1768197189,
         "name": "寻川",
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 132.00
     },
     {
         "time": 1767400935,
         "name": "蚯。。蚓",
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 1.00
     },
     {
         "time": 1766816650,
         "name": "Buried dreams",
         "message": "支持一下",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 20.00
     },
     {
         "time": 1766494870,
         "name": "(ง •̀_•́)ง",
         "message": "很强/:strong",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 10.00
     },
     {
         "time": 1766158954,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 30.00
     },
     {
         "time": 1765105511,
         "name": null,
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 0.10
     },
     {
         "time": 1763449456,
         "name": null,
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 0.30
     },
     {
         "time": 1762690497,
         "name": "布帆",
         "message": "非常棒，加油",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 1.00
     },
     {
         "time": 1761388471,
         "name": null,
         "message": null,
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 10.00
     },
     {
@@ -217,28 +217,28 @@ const sponsor = [
         "time": 1757920003,
         "name": null,
         "message": "感谢开发脚本",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 10.00
     },
     {
         "time": 1757636426,
         "name": "黑猫",
         "message": "谢谢哥哥的脚本",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 3.00
     },
     {
         "time": 1757172774,
         "name": "一百个",
         "message": "感谢分享小米管家补丁",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 2.00
     },
     {
         "time": 1755608533,
         "name": "克勤克俭",
         "message": "谢谢老哥",
-        "payment": "WeCaht",
+        "payment": "WeChat",
         "amount": 5.00
     },
     {
