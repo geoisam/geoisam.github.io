@@ -116,6 +116,13 @@ const skills = [
 
 const sponsor = [
     {
+        "time": 1776386477,
+        "name": "cthanta",
+        "message": null,
+        "payment": "WeChat",
+        "amount": 10.00
+    },
+    {
         "time": 1774156738,
         "name": "OK",
         "message": "蟹蟹",
