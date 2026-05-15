@@ -9,7 +9,17 @@
 </url>
 <url>
   <loc>https://geoisam.github.io/index.html</loc>
+  <lastmod>2032-01-29T13:14:05+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://geoisam.pages.dev/</loc>
   <lastmod>2032-01-29T13:14:10+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://geoisam.pages.dev/index.html</loc>
+  <lastmod>2032-01-29T13:14:15+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
@@ -19,17 +29,17 @@
 </url>
 <url>
   <loc>https://gitee.com/geoisam/</loc>
-  <lastmod>2032-01-29T13:14:22+00:00</lastmod>
+  <lastmod>2032-01-29T13:14:25+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://www.cnblogs.com/geoisam/</loc>
-  <lastmod>2032-01-29T13:14:24+00:00</lastmod>
+  <lastmod>2032-01-29T13:14:30+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 <url>
   <loc>https://home.cnblogs.com/u/geoisam/</loc>
-  <lastmod>2032-01-29T13:14:26+00:00</lastmod>
+  <lastmod>2032-01-29T13:14:35+00:00</lastmod>
   <priority>0.75</priority>
 </url>
 
