@@ -4,30 +4,32 @@ const links = [
         "icon": '<i class="ri-mail-fill"></i>',
         "link": "mailto:geoisam@qq.com"
     },
+    /*
     {
         "title": "QQ",
         "icon": '<i class="ri-qq-fill"></i>',
-        "link": "https://qm.qq.com/cgi-bin/qm/qr?k=jKiPGENUUyTne98ltuOEDDFfBP1uyAzz"
+        "link": ""
     },
+    */
     {
         "title": "GitHub",
         "icon": '<i class="ri-github-fill"></i>',
         "link": "https://github.com/geoisam"
     },
     {
-        "title": "Gitee",
-        "icon": '<i class="ri-google-fill"></i>',
-        "link": "https://gitee.com/geoisam"
-    },
-    {
         "title": "cnblogs",
         "icon": '<i class="ri-blogger-fill"></i>',
-        "link": "https://home.cnblogs.com/u/geoisam"
+        "link": "https://www.cnblogs.com/geoisam"
     },
     {
         "title": "bilibili",
         "icon": '<i class="ri-bilibili-fill"></i>',
         "link": "https://space.bilibili.com/408786204"
+    },
+    {
+        "title": "weibo",
+        "icon": '<i class="ri-weibo-fill"></i>',
+        "link": "https://weibo.com/u/7913014958"
     },
 ]
 
