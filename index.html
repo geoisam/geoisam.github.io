@@ -317,8 +317,8 @@
                     <th class="align-middle">时间</th>
                     <th class="align-middle">用户名</th>
                     <th class="align-middle">金额</th>
-                    <th class="align-middle">渠道</th>
-                    <th class="align-middle">留言</th>
+                    <!--<th class="align-middle">渠道</th>-->
+                    <!--<th class="align-middle">留言</th>-->
                 </tr>`
 
                 data.forEach((item, index) => {
@@ -328,8 +328,8 @@
                         <td class="align-middle">${formatTimestamp(item.time)}</td>
                         <td class="align-middle">${formatValue(item.name)}</td>
                         <td class="align-middle text-end">¥${item.amount.toFixed(2)}</td>
-                        <td class="align-middle">${formatValue(item.payment)}</td>
-                        <td class="align-middle">${formatValue(item.message)}</td>
+                        <!--<td class="align-middle">${formatValue(item.payment)}</td>-->
+                        <!--<td class="align-middle">${formatValue(item.message)}</td>-->
                     </tr>
                 `
                 })
