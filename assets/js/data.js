@@ -118,367 +118,388 @@ const skills = [
 
 const sponsor = [
     {
+        "time": 1789642712,
+        "name": "**栋",
+        "message": null,
+        "payment": 2,
+        "amount": 5.00
+    },
+    {
+        "time": 1789531794,
+        "name": "**磊",
+        "message": null,
+        "payment": 2,
+        "amount": 1.00
+    },
+    {
+        "time": 1788525309,
+        "name": "　　",
+        "message": null,
+        "payment": 1,
+        "amount": 0.17
+    },
+    {
         "time": 1786929882,
         "name": "花一匁",
         "message": "看看主页有没有我",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.01
     },
     {
         "time": 1784714274,
         "name": "Bloke",
         "message": "学生党",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1784640446,
         "name": "爱楠",
         "message": "zepp那个接口可以刷新login_token嘛",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1776386477,
         "name": "cthanta",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1774156738,
         "name": "OK",
         "message": "蟹蟹",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1773926923,
         "name": "zbk",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.01
     },
     {
         "time": 1773135773,
         "name": "千与千寻",
         "message": "360缺少i18n目录导致无右键",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1770702289,
         "name": "吕建国",
         "message": "感谢大佬",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.00
     },
     {
         "time": 1770532856,
         "name": "名字",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.10
     },
     {
         "time": 1768197189,
         "name": "寻川",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 132.00
     },
     {
         "time": 1767400935,
         "name": "蚯。。蚓",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1766816650,
         "name": "Buried dreams",
         "message": "支持一下",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 20.00
     },
     {
         "time": 1766494870,
         "name": "(ง •̀_•́)ง",
         "message": "很强/:strong",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1766158954,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 30.00
     },
     {
         "time": 1765105511,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.10
     },
     {
         "time": 1763449456,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.30
     },
     {
         "time": 1762690497,
         "name": "布帆",
         "message": "非常棒，加油",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1761388471,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1761056572,
         "name": "**鹏",
         "message": null,
-        "payment": "Alipay",
+        "payment": 2,
         "amount": 10.00
     },
     {
         "time": 1757920003,
         "name": null,
         "message": "感谢开发脚本",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1757636426,
         "name": "黑猫",
         "message": "谢谢哥哥的脚本",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 3.00
     },
     {
         "time": 1757172774,
         "name": "一百个",
         "message": "感谢分享小米管家补丁",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 2.00
     },
     {
         "time": 1755608533,
         "name": "克勤克俭",
         "message": "谢谢老哥",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.00
     },
     {
         "time": 1753709247,
         "name": "王翱翔律师",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1753294587,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.50
     },
     {
         "time": 1751880358,
         "name": "愿无二世",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1750300459,
         "name": "mhsj",
         "message": "感谢哥哥",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 200.00
     },
     {
         "time": 1749439676,
-        "name": "几度窥月",
+        "name": "**源",
         "message": null,
-        "payment": "Alipay",
+        "payment": 2,
         "amount": 1.00
     },
     {
         "time": 1749259276,
         "name": "靠谱",
         "message": "大哥，可以给个联系方式吗",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1746861674,
         "name": "ia",
         "message": "nb 感谢大佬",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 2.00
     },
     {
         "time": 1746768413,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 8.88
     },
     {
         "time": 1746266756,
         "name": "Zzz",
         "message": "感谢大佬分享，希望能分享手机端使用什么浏览器用于脚本执行谢谢",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 3.00
     },
     {
         "time": 1746084135,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 0.30
     },
     {
         "time": 1744258248,
         "name": "高",
         "message": "🐮🐮🐮",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 3.00
     },
     {
         "time": 1743936792,
         "name": "陈昌烨",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.25
     },
     {
         "time": 1742617385,
         "name": "之慕",
         "message": "很好用的脚本😁",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.00
     },
     {
         "time": 1740766172,
         "name": "Geber",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1740734933,
         "name": "维C",
         "message": "领到一百米的天猫超市礼品卡了，舒服了",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.00
     },
     {
         "time": 1739978637,
         "name": null,
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 3.00
     },
     {
         "time": 1739344031,
-        "name": "几度窥月",
+        "name": "**源",
         "message": null,
-        "payment": "Alipay",
+        "payment": 2,
         "amount": 1.00
     },
     {
         "time": 1738154189,
         "name": "无妄",
         "message": "脚本猫论坛~ 李白",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 8.00
     },
     {
         "time": 1738080772,
         "name": "苏哲",
         "message": "我爱你",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.20
     },
     {
         "time": 1738070692,
         "name": "鬱璟宸",
         "message": "新年快乐",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1734545543,
         "name": "ljm",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1734013644,
         "name": "K3",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1733233449,
         "name": "想喝冰可乐",
         "message": "哇！哥哥的脚本好棒！",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 5.00
     },
     {
         "time": 1723160668,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 20.00
     },
     {
         "time": 1722329420,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 10.00
     },
     {
         "time": 1717676557,
         "name": "饼哥",
         "message": "请你喝奶茶",
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 25.00
     },
     {
         "time": 1714569084,
         "name": "陈昌烨",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 1.00
     },
     {
         "time": 1713072301,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 6.66
     },
     {
         "time": 1712375844,
         "name": "齐澍鹤",
         "message": null,
-        "payment": "WeChat",
+        "payment": 1,
         "amount": 20.00
     },
 ]
