@@ -29,15 +29,24 @@
     <!-- QQ Sharing -->
     <meta itemprop="name" content="潘钜森的主页" />
     <meta itemprop="image" content="assets/img/ic_logo_round.svg" />
-    <meta name="description" itemprop="description" content="潘钜森，男，荒野求生专家，毕业于Fu-King University。美国《时代》周刊杂志2006年度风云人物、《感动中国》2008年度人物特别奖获得者、联合国2019年度“地球卫士奖”联合获奖人、国际奥委会2022年“奥林匹克奖杯”获奖者" />
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/ic_logo_round.svg" />
 
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://skillicons.dev" />
+
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" as="style" />
+    <link rel="preload" href="https://unpkg.com/bootstrap@5.3.8/dist/css/bootstrap.min.css" as="style" />
+
     <!-- Style -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Inconsolata:400,700" />
-    <link rel="stylesheet" href="https://unpkg.com/remixicon@4.8.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inconsolata:wght@400;700&display=swap" />
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/remixicon@4.8.0/fonts/remixicon.css" media="print" onload="this.media='all'" />
     <link rel="stylesheet" href="https://unpkg.com/mdui@2.1.4/mdui.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -80,15 +89,15 @@
     </section>
 
     <!--navigation-->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-navigation sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand d-md-none" href="/">
-                <img src="/assets/img/ic_logo_fill.svg">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/img/ic_logo_fill.svg" width="30" height="30">
             </a>
-            <button class="navbar-toggler navbar-toggler-right text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button class="navbar-toggler" type="button" id="navToggle" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-2">
                         <a class="nav-link page-scroll" href="#home">首页</a>
@@ -242,8 +251,8 @@
                     <div class="divider bg-primary mx-auto"></div>
                 </div>
                 <div class="text-center" height="300px">
-                    <img class="p-2" width="300px" src="/assets/img/wechat.jpg">
-                    <img class="p-2" width="300px" src="/assets/img/alipay.jpg">
+                    <img class="p-2" width="300px" src="/assets/img/wechat.jpg" loading="lazy" alt="WeChat QR Code">
+                    <img class="p-2" width="300px" src="/assets/img/alipay.jpg" loading="lazy" alt="Alipay QR Code">
                 </div>
                 <div class="col-xl-10 mx-auto">
                     <div class="sponsor mdui-table"></div>
@@ -289,89 +298,7 @@
 
     <script src="assets/js/data.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-
-            function generateSkills(data) {
-                let skills = ""
-                data.forEach(item => {
-                    skills += `<div class="col my-3">
-                            <h6 class="fw-bold my-2">${item.name}</h6>
-                            <mdui-tooltip placement="bottom" content="${item.desc}">
-                                <mdui-linear-progress value="${item.progress}" max="100"></mdui-linear-progress>
-                            </mdui-tooltip>
-                            </div>`
-                })
-                return skills
-            }
-
-            function formatValue(value) {
-                return value === null ? "—" : value
-            }
-
-            function generateTable(data) {
-                let table = '<table class="table table-bordered text-center">'
-
-                table += `<tr>
-                    <th class="align-middle d-none">#</th>
-                    <th class="align-middle">时间</th>
-                    <th class="align-middle">用户名</th>
-                    <th class="align-middle">金额</th>
-                    <th class="align-middle">渠道</th>
-                    <!--<th class="align-middle">留言</th>-->
-                </tr>`
-
-                data.forEach((item, index) => {
-                    table += `
-                    <tr>
-                        <td class="align-middle d-none">${index + 1}</td>
-                        <td class="align-middle">${formatTimestamp(item.time)}</td>
-                        <td class="align-middle">${formatValue(item.name)}</td>
-                        <td class="align-middle text-end">¥${item.amount.toFixed(2)}</td>
-                        <td class="align-middle">${formatValue(item.payment)}</td>
-                        <!--<td class="align-middle">${formatValue(item.message)}</td>-->
-                    </tr>
-                `
-                })
-
-                table += '</table>'
-                return table
-            }
-
-            function generateFriends(data) {
-                let friends = `<div class="p-2">
-                            <mdui-card class="py-2" style="background:url(/assets/img/ic_logo_round.svg) center no-repeat;background-size: contain;" variant="filled" href="https://github.com/geoisam/geoisam.github.io/issues/1" target="_blank">
-                                <div class="fw-bold">友链申请</div>
-                            </mdui-card>
-                        </div>`
-                data.forEach((item) => {
-                    friends += `<div class="p-2">
-                            <mdui-tooltip placement="bottom" content="${formatValue(item.desc)}">
-                                <mdui-card class="py-2" style="background:url(${item.icon}) center no-repeat;background-size: contain;" variant="filled" href="${item.link}" target="_blank">
-                                    <div class="fw-bold">${item.name}</div>
-                                </mdui-card>
-                            </mdui-tooltip>
-                        </div>`
-                })
-                return friends
-            }
-
-            function generateLinks(data) {
-                let links = ""
-                data.forEach((item) => {
-                    links += `<li><a href="${item.link}" target="_blank" title="${item.title}">${item.icon}</a></li>`
-                })
-                return links
-            }
-
-            document.querySelector("#home .contact").innerHTML = generateLinks(links)
-            document.querySelector("#skills .skills").innerHTML = generateSkills(skills)
-            document.querySelector("#sponsor .sponsor").innerHTML = generateTable(sponsor)
-            document.querySelector("#friends .friends").innerHTML = generateFriends(friends)
-        })
-
-    </script>
-    <script src="https://unpkg.com/mdui@2.1.4/mdui.global.js"></script>
+    <script src="https://unpkg.com/mdui@2.1.4/mdui.global.js" defer></script>
 </body>
 
 </html>
